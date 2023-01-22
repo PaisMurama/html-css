@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Teste de responsividade</title>
+    <style>
+            body{
+                background-color: gray;
+
+            }
+
+            main
+            {
+                background-color: white;
+                padding: 20px;
+                border-radius: 10px;
+
+                min-width: 280px;
+                max-width: 800px;
+                margin: auto;
+
+            }
+
+            /*caso 1 para resolver a barra de rolagem horizontal na imagem e tornar o conteudo responsivo*/
+            img
+            {
+                width: 100%;
+            }
+    </style>
+</head>
+<body>
+    <main>
+    <h1>Testando responsividade</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ratione eius exercitationem unde laborum a eum nisi tenetur mollitia, officiis repudiandae commodi amet expedita, omnis sint distinctio sit. Accusamus, eius.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, deleniti assumenda. Ex accusamus eum eaque doloremque? Tempora delectus animi amet dolor doloribus laudantium incidunt voluptas consequuntur harum vitae, alias nisi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, reiciendis quis aliquid ipsam eius, consectetur eum hic culpa tempore dolor officiis totam quos placeat aliquam provident odio fuga recusandae!
+    </p> 
+    <!--caso 2  para resolver a barra de rolagem horizontal na imagem e tornar o conteudo responsivo-->
+    <picture>
+        <source media="(max-width: 600px )" srcset="imagens/irina-blok-pq.jpg">
+        <img src="imagens/irina-blok.jpg" alt="irina-blok">
+    </picture>
+    
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ratione eius exercitationem unde laborum a eum nisi tenetur mollitia, officiis repudiandae commodi amet expedita, omnis sint distinctio sit. Accusamus, eius.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, deleniti assumenda. Ex accusamus eum eaque doloremque? Tempora delectus animi amet dolor doloribus laudantium incidunt voluptas consequuntur harum vitae, alias nisi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, reiciendis quis aliquid ipsam eius, consectetur eum hic culpa tempore dolor officiis totam quos placeat aliquam provident odio fuga recusandae!
+    </p> 
+    
+    </main>
+    
+</body>
+</html>
